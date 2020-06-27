@@ -1,0 +1,15 @@
+@mixin spacing-generator($side, $count: 30) {
+    @for $i from 1 to $count {
+      .margin-#{$side}--#{$i * 5} {
+        margin-#{$side}: $i * .5rem !important;
+      }
+      .padding-#{$side}--#{$i * 5} {
+        padding-#{$side}: $i * .5rem !important;
+      }
+    }
+  }
+  
+  @include spacing-generator(top);
+  @include spacing-generator(bottom);
+  @include spacing-generator(left);
+  @include spacing-generator(right);
