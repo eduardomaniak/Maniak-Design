@@ -17,3 +17,17 @@
   .grid-x {
     justify-content: space-between;
   }
+  .img-container {
+    overflow: hidden;
+    transition: transform .35s ease;
+  }
+  .img-container:hover {
+    transform: scale(.97);
+  }
+  .img-container img {
+    transition: transform .35s ease;
+    cursor: pointer;
+  }
+  .img-container img:hover {
+    transform: scale(1.05);
+  }
