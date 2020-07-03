@@ -13,3 +13,7 @@
   @include spacing-generator(bottom);
   @include spacing-generator(left);
   @include spacing-generator(right);
+
+  .grid-x {
+    justify-content: space-between;
+  }
