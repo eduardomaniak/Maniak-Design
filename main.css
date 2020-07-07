@@ -948,6 +948,11 @@
   transform: scale(1.05);
 }
 
+.heading-container {
+  overflow: hidden;
+  padding-bottom: 0.5rem;
+}
+
 @font-face {
   font-family: "Graphik Web";
   src: url("fonts/Graphik-Medium-Web.eot");
