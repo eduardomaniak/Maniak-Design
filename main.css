@@ -1014,4 +1014,13 @@ a:hover {
   color: #FF3300;
 }
 
+@media (max-width: 768px) {
+  .home-hero h1 {
+    font-size: 4.5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.15;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
