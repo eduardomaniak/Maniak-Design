@@ -953,6 +953,15 @@
   padding-bottom: 0.5rem;
 }
 
+.mt-28 {
+  margin-top: 2.8%;
+}
+
+.feed-container {
+  margin-top: 10.2%;
+  margin-bottom: 10.2%;
+}
+
 @font-face {
   font-family: "Graphik Web";
   src: url("../fonts/Graphik-Medium-Web.eot");
