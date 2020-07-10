@@ -958,10 +958,21 @@
 }
 
 .feed-container {
-  margin-top: 10.2%;
-  margin-bottom: 10.2%;
+  margin-top: 9rem;
+  margin-bottom: 9rem;
 }
 
+@media (max-width: 992px) {
+  .feed-container {
+    margin-top: 10.2%;
+    margin-bottom: 10.2%;
+  }
+}
+@media (max-width: 639px) {
+  .post {
+    margin-top: 5rem !important;
+  }
+}
 @font-face {
   font-family: "Graphik Web";
   src: url("../fonts/Graphik-Medium-Web.eot");
