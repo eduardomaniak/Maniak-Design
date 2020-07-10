@@ -980,7 +980,7 @@ body {
 }
 
 h1 {
-  font-size: calc(42px + 54*(100vw - 320px)/1264);
+  font-size: calc(48px + 54*(100vw - 320px)/1264);
   color: #000000;
   letter-spacing: -0.04em;
   text-align: center;
@@ -993,7 +993,7 @@ h1 {
 }
 
 h4 {
-  font-size: calc(24px + 8*(100vw - 320px)/1264);
+  font-size: calc(24px + 5*(100vw - 320px)/1264);
   color: rgba(28, 28, 28, 0.5);
   letter-spacing: -0.64px;
   line-height: 42.67px;
