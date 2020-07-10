@@ -29,14 +29,18 @@ body {
     text-rendering: optimizeLegibility;
 }
 h1   {
-    font-size: 6.7rem;
+    font-size: calc(42px + 56*(100vw - 320px)/1264);
     color: #000000;
     letter-spacing: -0.04em;
     text-align: center;
-    line-height: 100px;
+    line-height: 100%;
+    margin-bottom: 0;
+}
+.hero-h2 {
+    margin-bottom: .5rem;
 }
 h4 {
-    font-size: 32px;
+    font-size: calc(24px + 10*(100vw - 320px)/1264);
     color: rgba(28,28,28,0.50);
     letter-spacing: -0.64px;
     line-height: 42.67px;
@@ -56,13 +60,4 @@ a {
 }
 a:hover {
     color: #FF3300;
-}
-
-@media (max-width: 768px) {
-    .home-hero h1 {
-        font-size: 4.5rem;
-        padding: 0;
-        margin: 0;
-        line-height: 1.15;
-     }
 }
