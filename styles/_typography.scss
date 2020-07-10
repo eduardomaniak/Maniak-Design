@@ -29,7 +29,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 h1   {
-    font-size: calc(48px + 54*(100vw - 320px)/1264);
+    font-size: calc(48px + 52*(100vw - 320px)/1264);
     color: #000000;
     letter-spacing: -0.04em;
     text-align: center;
@@ -40,10 +40,10 @@ h1   {
     margin-bottom: .5rem;
 }
 h4 {
-    font-size: calc(24px + 5*(100vw - 320px)/1264);
+    font-size: calc(24px + 6*(100vw - 320px)/1264);
     color: rgba(28,28,28,0.50);
     letter-spacing: -0.64px;
-    line-height: 42.67px;
+    line-height: 122%;
 }
 h5 {
     font-size: 24px;
@@ -60,4 +60,15 @@ a {
 }
 a:hover {
     color: #FF3300;
+}
+@media (max-width: 440px) {
+    .home-hero h1 {
+        font-size: calc(38px + 30*(100vw - 320px)/450);
+     }
+}
+
+@media (max-width: 322px) {
+    .home-hero h1 {
+        padding: 0 2rem;
+     }
 }
